@@ -1,4 +1,4 @@
-connect
+# connect
 
 import json  
 import boto3  
@@ -38,7 +38,7 @@ def lambda_handler(event, context):
 
 
 
-disconnect
+# disconnect
 
 import json
 import boto3
@@ -53,7 +53,7 @@ def lambda_handler(event, context):
 
 
 
-sendpub
+# sendpub
 
 import json
 import boto3
@@ -114,7 +114,7 @@ def lambda_handler(event, context):
 
 
 
-sendpri
+# sendprivate
 
 
 import json
@@ -159,7 +159,7 @@ def lambda_handler(event, context):
 
 
 
-sqslambda
+# sqslambda
 
 
 import json
@@ -196,7 +196,7 @@ def lambda_handler(event, context):
 
 
 
-sns
+# sns 
 
 import boto3
 def lambda_handler(event, context):  
